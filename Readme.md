@@ -1,7 +1,7 @@
 # Личный проект «Техномарт»
 
 * Студент: [Dmitry Zolot](https://up.htmlacademy.ru/htmlcss/23/user/902855).
-* Наставник: [Ксения Торкова] (https://up.htmlacademy.ru/htmlcss/23/user/902855).
+* Наставник: [Ксения Торкова] (https://up.htmlacademy.ru/htmlcss/23/user/23249).
 
 ---
 
