@@ -12,8 +12,11 @@
         </a>
         <ul class="user-navigation_1">
           <!-- Здесь будут svg -->
-          <li class="search">Поиск</li>
-          <!-- Здесь будет форма -->
+          <li class="search">
+			<form>
+				<input type="text" placeholder="Поиск">
+			</form>
+		  </li>
           <li class="marks"><a href="#">Закладки</a></li>
           <li class="shopping_cart"><a href="#">Корзина</a></li>
           <li class="confirm_order"><a href="#">Оформить заказ</a></li>
@@ -52,23 +55,18 @@
       </ul>
       <h2 class="page-title">Перфораторы</h2>
       <section class="filters">
-        <h3>Производители:</h3>
-        <ul class="brands">
-          <li>BOSCH</li>
-          <li>ИНТЕРСКОЛ</li>
-          <li>MAKITA</li>
-          <li>DEWALT</li>
-          <li>HITACHI</li>
-        </ul>
-          <!-- Здесь будет форма -->
-        <h3>Питание:</h3>
-        <ul class="power">
-          <li>АККУМУЛЯТОРНЫЕ</li>
-          <li>СЕТЕВЫЕ</li>
-        </ul>
-          <!-- Здесь будет форма -->
-        <b>Показать</b>
-      <!-- Здесь будет кнопка -->
+		<form class="filter">
+			<h3>Производители:</h3>
+			<label><input type="checkbox" value="BOSCH" checked>BOSCH</label>
+			<label><input type="checkbox" value="ИНТЕРСКОЛ">ИНТЕРСКОЛ</label>
+			<label><input type="checkbox" value="MAKITA" checked>MAKITA</label>
+			<label><input type="checkbox" value="DEWALT">DEWALT</label>
+			<label><input type="checkbox" value="HITACHI">HITACHI</label>
+			<h3>Питание:</h3>
+			<label><input type="radio" name="power" value="АККУМУЛЯТОРНЫЕ" checked>АККУМУЛЯТОРНЫЕ</label>
+			<label><input type="radio" name="power" value="СЕТЕВЫЕ">СЕТЕВЫЕ</label>
+			<button class="send" type="submit">Показать</button>
+		</form>
       </section>
       <section class="catalog">
         <h3 class="visually-hidden">Каталог товаров</h3>
@@ -189,5 +187,11 @@
         </p>
       </div>
     </footer>
+	<form class="add_to_cart">
+		<b>Товар добавлен в корзину!</b>
+		<button class="close" type="button"></button>
+		<button class="order" type="button">оформить заказ</button>
+		<a href="#">продолжить покупки</a>	
+	</form>
 	</body>
 </html>

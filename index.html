@@ -12,7 +12,11 @@
         </a>
         <ul class="user-navigation_1">
           <!-- Здесь будут svg -->
-          <li class="search">Поиск</li>
+          <li class="search">
+			<form>
+				<input type="text" placeholder="Поиск">
+			</form>
+		  </li>
           <!-- Здесь будет форма -->
           <li class="marks"><a href="#">Закладки</a></li>
           <li class="shopping_cart"><a href="#">Корзина</a></li>
@@ -101,5 +105,12 @@
         </p>
       </div>
     </footer>
+  <form class="write_us">
+	<label>Ваше имя:<input type="text" placeholder="Имя Фамилия"></input></label>
+	<label>Ваш e-mail:<input type="email" placeholder="email@email.com"></input></label>
+	<button class="close" type="button"></button>
+	<label>Текст письма:<input type="email" placeholder="В свободной форме"></input></label>
+	<button class="send" type="submit">Отправить</button>
+  </form>
   </body>
 </html>
