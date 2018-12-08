@@ -13,7 +13,7 @@
         <ul class="user-navigation_1">
           <!-- Здесь будут svg -->
           <li class="search">
-			<form>
+			<form name="search" action="https://echo.htmlacademy.ru" method="get">
 				<input type="text" placeholder="Поиск">
 			</form>
 		  </li>
@@ -55,16 +55,16 @@
       </ul>
       <h2 class="page-title">Перфораторы</h2>
       <section class="filters">
-		<form class="filter">
+		<form action="https://echo.htmlacademy.ru" method="get" class="filter">
 			<h3>Производители:</h3>
-			<label><input type="checkbox" value="BOSCH" checked>BOSCH</label>
-			<label><input type="checkbox" value="ИНТЕРСКОЛ">ИНТЕРСКОЛ</label>
-			<label><input type="checkbox" value="MAKITA" checked>MAKITA</label>
-			<label><input type="checkbox" value="DEWALT">DEWALT</label>
-			<label><input type="checkbox" value="HITACHI">HITACHI</label>
+			<label><input type="checkbox" name="bosch" checked>bosch</label>
+			<label><input type="checkbox" name="interskol">интерскол</label>
+			<label><input type="checkbox" name="makita" checked>makita</label>
+			<label><input type="checkbox" name="dewalt">dewalt</label>
+			<label><input type="checkbox" name="hitachi">hitachi</label>
 			<h3>Питание:</h3>
-			<label><input type="radio" name="power" value="АККУМУЛЯТОРНЫЕ" checked>АККУМУЛЯТОРНЫЕ</label>
-			<label><input type="radio" name="power" value="СЕТЕВЫЕ">СЕТЕВЫЕ</label>
+			<label><input type="radio" name="power" value="АККУМУЛЯТОРНЫЕ" checked>аккумуляторные</label>
+			<label><input type="radio" name="power" value="СЕТЕВЫЕ">сетевые</label>
 			<button class="send" type="submit">Показать</button>
 		</form>
       </section>
@@ -187,11 +187,13 @@
         </p>
       </div>
     </footer>
-	<form class="add_to_cart">
+	<section class="add_to_cart">
 		<b>Товар добавлен в корзину!</b>
-		<button class="close" type="button"></button>
+		<button class="close" type="button">
+			<span class=visually-hidden">Закрыть это всплывающее окно</span>
+		</button>
 		<button class="order" type="button">оформить заказ</button>
 		<a href="#">продолжить покупки</a>	
-	</form>
+	</section>
 	</body>
 </html>

@@ -13,7 +13,7 @@
         <ul class="user-navigation_1">
           <!-- Здесь будут svg -->
           <li class="search">
-			<form>
+			<form name="search" action="https://echo.htmlacademy.ru" method="get">
 				<input type="text" placeholder="Поиск">
 			</form>
 		  </li>
@@ -57,13 +57,15 @@
       </section>
       <section class="contacts">
         <h2>Контакты</h2>
-        <p class="general_info">Вы можете забрать товар сами, заехав в наш офис:</p>
-        <img src="img/map.png" width="368" height="153" alt="Карта">
+        <p class="general_info">Вы можете забрать товар сами, заехав в наш офис:
+			<img src="img/map.png" width="368" height="153" alt="Карта">
+		</p>
         <a href="map.html">заблудились? напишите нам!</a>
+		<button class="close" type="button">
+			<span class=visually-hidden">Закрыть это всплывающее окно</span>
+		</button>
       </section>
     </main>
-    <br>
-    <!-- чтобы пока что было удобно смотреть -->
     <footer class="main-footer">
       <a class="main-footer-logo">
         <img src="img/index-logo.svg" width="368" height="153" alt="Логотип интернет-магазина «Техномарт»">
@@ -105,11 +107,13 @@
         </p>
       </div>
     </footer>
-  <form class="write_us">
-	<label>Ваше имя:<input type="text" placeholder="Имя Фамилия"></input></label>
-	<label>Ваш e-mail:<input type="email" placeholder="email@email.com"></input></label>
-	<button class="close" type="button"></button>
-	<label>Текст письма:<input type="email" placeholder="В свободной форме"></input></label>
+  <form action="https://echo.htmlacademy.ru" method="get" class="write_us">
+	<label>Ваше имя:<input type="text" placeholder="Имя Фамилия"></label>
+	<label>Ваш e-mail:<input type="email" placeholder="email@email.com"></label>
+	<button class="close" type="button"><span class=visually-hidden">
+		<span class=visually-hidden">Закрыть это всплывающее окно</span>
+	</button>
+	<label>Текст письма:<input type="email" placeholder="В свободной форме"></label>
 	<button class="send" type="submit">Отправить</button>
   </form>
   </body>
