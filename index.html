@@ -3,23 +3,24 @@
   <head>
     <meta charset="utf-8">
     <title>HTML Academy: Техномарт</title>
+	<link href="css/stylecss.css" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Cuprum:400,400i|PT+Sans:400,700&amp;subset=cyrillic" rel="stylesheet">
   </head>
   <body>
     <header class="main-header">
       <nav class="main-navigation">
-        <a class="main-header-logo">
-          <img src="img/index-logo.svg" width="368" height="153" alt="Логотип интернет-магазина «Техномарт»">
-        </a>
         <ul class="user-navigation_1">
-          <!-- Здесь будут svg -->
+			<a class="main-header-logo" href="index.html">
+			<div class="site_logo">Техномарт</div>
+			</a>
           <li class="search">
 			<form name="search" action="https://echo.htmlacademy.ru" method="get">
 				<input type="text" placeholder="Поиск">
 			</form>
 		  </li>
           <!-- Здесь будет форма -->
-          <li class="marks"><a href="#">Закладки</a></li>
-          <li class="shopping_cart"><a href="#">Корзина</a></li>
+          <li class="marks"><a href="#">Закладки: 0</a></li>
+          <li class="shopping_cart"><a href="#">Корзина: 0</a></li>
           <li class="confirm_order"><a href="#">Оформить заказ</a></li>
           <!-- Здесь будет кнопка -->
         </ul>
@@ -31,7 +32,7 @@
           <li class="login-link"><a href="#">Войти</a></li>
           <li class="sign_up-link"><a href="#">Регистрация</a></li>
         </ul>
-        <ul class="site-navigation">
+        <ul class="site-navigation-top">
           <li><a href=index.html>Главная</a></li>
           <li><a href="company.html">Компания</a></li>
           <li><a href="catalog.html">Каталог</a></li>
@@ -60,18 +61,18 @@
         <p class="general_info">Вы можете забрать товар сами, заехав в наш офис:
 			<img src="img/map.png" width="300" height="158" alt="Карта">
 		</p>
-        <a href="map.html">заблудились? напишите нам!</a>
+        <a href="map.html" class="massage">заблудились? напишите нам!</a>
 		<button class="close" type="button">
 			<span class="visually-hidden">Закрыть это всплывающее окно</span>
 		</button>
       </section>
     </main>
     <footer class="main-footer">
-      <a class="main-footer-logo">
-        <img src="img/index-logo.svg" width="368" height="153" alt="Логотип интернет-магазина «Техномарт»">
-      </a>
       <div class="upper_footer">
-        <ul class="site-navigation">
+        <a class="main-footer-logo" href="index.html">
+			<div class="site_logo">Техномарт</div>
+		</a>
+		<ul class="site-navigation-bottom">
           <li><a href="company.html">Компания</a></li>
           <li><a href="news.html">Новости</a></li>
           <li><a href="catalog.html">Каталог</a></li>
@@ -88,8 +89,8 @@
       </div>
       <div class="lower_footer">
         <p class="reserved_rights">
-          <b>© 2010-2017 Компания «Техномарт»</b><br>
-          <b>Все права защищены</b>
+          <span>© 2010-2017 Компания «Техномарт»</span><br>
+          <span>Все права защищены</span>
         </p>
         <ul class="footer-social">
           <li><a class="social-button" href="#">Вконтакте</a></li>
@@ -97,12 +98,12 @@
           <li><a class="social-button" href="#">Инстаграм</a></li>
         </ul>
         <p class="feedback">
-          <b>Обратная связь:</b>
+          <span>Обратная связь:</span>
           <a class="button" href="mailto:mail@htmlacademy.ru">mail@htmlacademy.ru</a>
           <!-- Здесь будет форма -->
         </p>
         <p class="footer-copyright">
-          <b>Разработано:</b> 
+          <span>Разработано - </span> 
           <a class="button" href="https://htmlacademy.ru/intensive/htmlcss">HTML Academy</a>
         </p>
       </div>

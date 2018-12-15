@@ -1,0 +1,250 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Cuprum", Arial, sans-serif;
+  font-size: 14px;
+  line-height: 18px;
+  color: #000000;
+  background-color: #ffffff;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+	list-style-type: none;
+}
+
+h1 {
+	font-family: "Cuprum";
+	font-style: italic;
+	color:#ee3643;
+	font-size: 16px;
+}
+
+.visually-hidden {
+	display: none;
+}
+
+.site_logo {
+    background: #ee3643;
+    box-shadow: 0 7px 0 0 #b52933;
+    height: 40px;
+    width: 220px;
+    font-size: 27.532px;
+    font-family: Cuprum, Arial, sans-serif;
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.confirm_order a {
+	background-color: #63a63e;
+}
+
+.phone {
+	font-size: 21px;
+	color:#ee3643;
+}
+
+
+.address {
+	font-size: 14px;
+	color:#32425c;
+}
+
+.login-link a,
+.sign_up-link a {
+	font-size: 21px;
+	color: #000000;
+}
+
+.shopping_cart_selected {
+	background-color: #ee3643;
+}
+
+.user_page {
+	font-size: 21px;
+	color: #000000;
+}
+
+.my_orders,
+.my_account {
+	font-size: 16px;
+	text-decoration: underline;
+	color:#32425c;
+}
+
+.breadcrumbs li,
+.breadcrumbs a {
+	font-family: "PT Sans", sans-serif;
+	font-size: 13px;
+	color: #000000;
+	text-transform: uppercase;
+}
+
+.page-title {
+	font-size: 30px;
+	color: #32425c;
+	text-transform: uppercase;
+}
+
+.filters h3 {
+	font-family: "PT Sans", sans-serif;
+	font-weight: bold;
+	font-size: 17px;
+	text-transform: uppercase;
+}
+
+.filters label {
+	font-family: "PT Sans", sans-serif;
+	font-size: 17px;
+	text-transform: uppercase;
+}
+
+.filters button {
+	font-family: "PT Sans", sans-serif;
+	font-size: 13px;
+	text-transform: uppercase;
+	border: 1px solid #e5e5e5;
+	background-color: #ffffff;
+}
+
+.item_card,
+.new_item_card,
+.new_item_card_selected {
+	height: 318px;
+	width: 220px;
+	border: 1px solid #e5e5e5;
+	background-color: #ffffff;
+	margin-bottom: 22px;
+}
+
+.buy {
+	font-size: 14px;
+	color: #ffffff;
+	text-transform: uppercase;
+	background-color: #63a63e;
+}
+
+.add_to_marks {
+	font-size: 14px;
+	color: #32425c;
+	text-transform: uppercase;
+	background-color: #ffffff;
+	border: 3px solid #63a63e;
+}
+
+.item_name {
+	font-family: "PT Sans", sans-serif;
+	font-weight: bold;
+	font-size: 18px;
+}
+
+.old_price {
+	font-family: "PT Sans", sans-serif;
+	font-weight: bold;
+	font-size: 17px;
+	color: #999999;
+	text-decoration: line-through;
+}
+
+.new_price {
+	font-family: "PT Sans", sans-serif;
+	font-weight: bold;
+	font-size: 17px;
+	color: #ffffff;
+	background-color:#ee3643;
+}
+
+.item_image {
+	padding: 40px 50px 0px 40px;
+}
+
+
+.item_name {
+	padding: 30px 30px 15px 30px;
+	text-align: center;
+}
+
+.old_price {
+	padding: 0px 96px 0px 50px
+}
+
+.new_price {
+	padding-left: 44px;
+}
+
+.user-navigation_1,
+.lower_footer {
+	background-color: #293449;
+}
+
+.site-navigation-top,
+.site-navigation-bottom,
+.upper_footer {
+	background-color: #32425c;
+}
+
+.site-navigation-top {
+	box-shadow: 0 5px 0 0 #293449;
+}
+
+.user-navigation_1 a,
+.site-navigation-top a,
+.site-navigation-bottom a {
+	font-size: 17px;
+	color:#ffffff;
+}
+
+.about_us h2,
+.contacts h2 {
+	font-family: "PT Sans", sans-serif;
+	font-size: 21px;
+	text-transform: uppercase;
+}
+
+.general_info {
+	font-size: 13px;
+}
+
+.transport {
+	font-size: 18px;
+}
+
+.company_info,
+.massage {
+	background-color: #ee3643;
+	color:#ffffff;
+	text-transform: uppercase;
+}
+
+.product-navigation a {
+	font-size: 18px;
+	color:#ffd180;
+}
+
+.footer-contacts {
+	color:#ffffff;
+	font-size: 18px;
+}
+
+.reserved_rights {
+	color:#ffffff;
+	font-size: 16px;
+}
+
+.footer-copyright span,
+.feedback span {
+	color:#ffffff;
+	font-size: 16px;
+}
+
+.footer-copyright a,
+.feedback a {
+	color:#ffd180;
+	font-size: 16px;
+}
