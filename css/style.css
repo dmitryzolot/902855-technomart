@@ -1,65 +1,82 @@
 body {
-  margin: 0;
-  padding: 0;
-  font-family: "Cuprum", Arial, sans-serif;
-  font-size: 14px;
-  line-height: 18px;
-  color: #000000;
-  background-color: #ffffff;
+	margin: 0;
+	padding: 0;
+	font-family: Cuprum, Arial, sans-serif;
+	font-size: 14px;
+	line-height: 18px;
+	color: #000000;
+	background-color: #ffffff;
 }
 
-a {
-  text-decoration: none;
-}
-
-li {
+.user-navigation_1 li,
+.user-navigation_2 li,
+.site-navigation-top li,
+.transport li,
+.site-navigation-bottom li,
+.product-navigation li,
+.footer-social li {
 	list-style-type: none;
 }
 
-h1 {
-	font-family: "Cuprum";
+
+.main_title {
+	font-family: Cuprum, Arial, sans-serif;
 	font-style: italic;
 	color:#ee3643;
 	font-size: 16px;
 }
 
 .visually-hidden {
-	display: none;
+	position: absolute;
+	width: 1px;
+	height: 1px;
+	margin: -1px;
+	border: 0;
+	padding: 0;
+	clip: rect(0 0 0 0);
+	overflow: hidden;
 }
 
 .site_logo {
-    background: #ee3643;
-    box-shadow: 0 7px 0 0 #b52933;
-    height: 40px;
-    width: 220px;
-    font-size: 27.532px;
-    font-family: Cuprum, Arial, sans-serif;
-    color: #ffffff;
-    text-decoration: none;
-    text-transform: uppercase;
-    text-align: center;
-    padding-top: 10px;
+	background-color: #ee3643;
+	box-shadow: 0 7px 0 0 #b52933;
+	height: 40px;
+	width: 220px;
+	font-size: 27.532px;
+	font-family: Cuprum, Arial, sans-serif;
+	color: #ffffff;
+	text-decoration: none;
+	text-transform: uppercase;
+	text-align: center;
+	padding-top: 10px;
+}
+
+.main-footer-logo {
+	text-decoration: none;
 }
 
 .confirm_order a {
 	background-color: #63a63e;
+	text-decoration: none;
 }
 
 .phone {
 	font-size: 21px;
-	color:#ee3643;
+	color:#e9292a;
+	text-decoration: none;
 }
 
 
 .address {
 	font-size: 14px;
-	color:#32425c;
+	color:#32425c; 
 }
 
 .login-link a,
 .sign_up-link a {
 	font-size: 21px;
 	color: #000000;
+	text-decoration: none;
 }
 
 .shopping_cart_selected {
@@ -69,6 +86,7 @@ h1 {
 .user_page {
 	font-size: 21px;
 	color: #000000;
+	text-decoration: none;
 }
 
 .my_orders,
@@ -80,9 +98,10 @@ h1 {
 
 .breadcrumbs li,
 .breadcrumbs a {
-	font-family: "PT Sans", sans-serif;
+	font-family: PT Sans, Arial, sans-serif;
 	font-size: 13px;
 	color: #000000;
+	text-decoration: none;
 	text-transform: uppercase;
 }
 
@@ -93,20 +112,20 @@ h1 {
 }
 
 .filters h3 {
-	font-family: "PT Sans", sans-serif;
+	font-family: PT Sans, Arial, sans-serif;
 	font-weight: bold;
 	font-size: 17px;
 	text-transform: uppercase;
 }
 
 .filters label {
-	font-family: "PT Sans", sans-serif;
-	font-size: 17px;
+	font-family: PT Sans, Arial, sans-serif;
+	font-size: 15px;
 	text-transform: uppercase;
 }
 
 .filters button {
-	font-family: "PT Sans", sans-serif;
+	font-family: PT Sans, Arial, sans-serif;
 	font-size: 13px;
 	text-transform: uppercase;
 	border: 1px solid #e5e5e5;
@@ -116,7 +135,7 @@ h1 {
 .item_card,
 .new_item_card,
 .new_item_card_selected {
-	height: 318px;
+	min-height: 318px;
 	width: 220px;
 	border: 1px solid #e5e5e5;
 	background-color: #ffffff;
@@ -126,6 +145,7 @@ h1 {
 .buy {
 	font-size: 14px;
 	color: #ffffff;
+	text-decoration: none;
 	text-transform: uppercase;
 	background-color: #63a63e;
 }
@@ -133,19 +153,21 @@ h1 {
 .add_to_marks {
 	font-size: 14px;
 	color: #32425c;
+	text-decoration: none;
 	text-transform: uppercase;
 	background-color: #ffffff;
 	border: 3px solid #63a63e;
 }
 
 .item_name {
-	font-family: "PT Sans", sans-serif;
+	font-family: PT Sans, Arial, sans-serif;
 	font-weight: bold;
 	font-size: 18px;
+	line-height: 20px;
 }
 
 .old_price {
-	font-family: "PT Sans", sans-serif;
+	font-family: PT Sans, Arial, sans-serif;
 	font-weight: bold;
 	font-size: 17px;
 	color: #999999;
@@ -153,7 +175,7 @@ h1 {
 }
 
 .new_price {
-	font-family: "PT Sans", sans-serif;
+	font-family: PT Sans, Arial, sans-serif;
 	font-weight: bold;
 	font-size: 17px;
 	color: #ffffff;
@@ -198,38 +220,44 @@ h1 {
 .site-navigation-bottom a {
 	font-size: 17px;
 	color:#ffffff;
+	text-decoration: none;
 }
 
 .about_us h2,
 .contacts h2 {
-	font-family: "PT Sans", sans-serif;
-	font-size: 21px;
+	font-family: PT Sans, Arial, sans-serif;
+	font-size: 30px;
 	text-transform: uppercase;
 }
 
 .general_info {
 	font-size: 13px;
+	line-height: 24px;
 }
 
 .transport {
 	font-size: 18px;
+	line-height: 20px;
 }
 
 .company_info,
-.massage {
+.message {
 	background-color: #ee3643;
 	color:#ffffff;
+	text-decoration: none;
 	text-transform: uppercase;
 }
 
 .product-navigation a {
 	font-size: 18px;
 	color:#ffd180;
+	text-decoration: none;
 }
 
 .footer-contacts {
 	color:#ffffff;
 	font-size: 18px;
+	line-height: 24px;
 }
 
 .reserved_rights {
@@ -241,10 +269,13 @@ h1 {
 .feedback span {
 	color:#ffffff;
 	font-size: 16px;
+	line-height: 18px;
 }
 
 .footer-copyright a,
 .feedback a {
 	color:#ffd180;
 	font-size: 16px;
+	line-height: 18px;
+	text-decoration: none;
 }
