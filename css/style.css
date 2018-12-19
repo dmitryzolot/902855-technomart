@@ -6,6 +6,7 @@ body {
 	line-height: 18px;
 	color: #000000;
 	background-color: #ffffff;
+	width: 1200px;
 }
 
 .user-navigation_1 li,
@@ -25,6 +26,7 @@ body {
 	color:#ee3643;
 	font-size: 16px;
 	line-height: 23px;
+	width: 200px;
 }
 
 .visually-hidden {
@@ -262,7 +264,7 @@ body {
 
 .about_us h2,
 .contacts h2 {
-	font-family: 'PT Sans', 'Arial', sans-serif;
+	font-family: 'Cuprum', 'Arial', sans-serif;
 	font-size: 30px;
 	line-height: 30px;
 	text-transform: uppercase;
@@ -317,3 +319,87 @@ body {
 	line-height: 18px;
 	text-decoration: none;
 }
+
+
+.user-navigation_1 {
+	display: flex;
+	justify-content: space-between;
+	padding-left: 130px;
+	padding-right: 130px;
+}
+
+.user-navigation_2_wrapper {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	padding-left: 180px;
+	padding-right: 155px;
+}
+
+.user-navigation_2 {
+	display: flex;
+	justify-content: space-between;
+}
+
+.site-navigation-top {
+	display: flex;
+	justify-content: space-between;
+	margin-left: 130px;
+	margin-right: 130px;
+	padding-right: 55px;
+}
+
+.container {
+	display: flex;
+	margin-left: 130px;
+	margin-right: 130px;
+}
+
+.about_us {
+	width: 520px;
+}
+
+.site-navigation-bottom {
+	display: flex;
+	justify-content: space-between;
+	padding-left: 130px;
+	padding-right: 130px;
+}
+
+.product-navigation {
+	display: flex;
+	justify-content: space-between;
+	padding-left: 130px;
+	padding-right: 130px;
+}
+
+.lower_footer {
+	display: flex;
+	justify-content: space-between;
+	padding-left: 130px;
+	padding-right: 130px;
+}
+
+.footer-social {
+	display: inline-flex;
+}
+
+.feedback {
+	width: 130px;
+}
+
+.footer-copyright {
+	width: 100px;
+}
+
+.catalog {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+
+.filters form {
+	display: flex;
+	flex-direction: column;
+}
+
