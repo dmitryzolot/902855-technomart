@@ -1,7 +1,7 @@
 body {
 	margin: 0;
 	padding: 0;
-	font-family: Cuprum, Arial, sans-serif;
+	font-family: 'Cuprum', 'Arial', sans-serif;
 	font-size: 14px;
 	line-height: 18px;
 	color: #000000;
@@ -20,10 +20,11 @@ body {
 
 
 .main_title {
-	font-family: Cuprum, Arial, sans-serif;
+	font-family: 'Cuprum', 'Arial', sans-serif;
 	font-style: italic;
 	color:#ee3643;
 	font-size: 16px;
+	line-height: 23px;
 }
 
 .visually-hidden {
@@ -37,19 +38,36 @@ body {
 	overflow: hidden;
 }
 
-.site_logo {
+.site_logo_top {
 	background-color: #ee3643;
 	box-shadow: 0 7px 0 0 #b52933;
 	height: 40px;
 	width: 220px;
-	font-size: 27.532px;
-	font-family: Cuprum, Arial, sans-serif;
+	font-size: 24px;
+	line-height: 24px;
+	font-family: 'Cuprum', 'Arial', sans-serif;
 	color: #ffffff;
 	text-decoration: none;
 	text-transform: uppercase;
 	text-align: center;
 	padding-top: 10px;
 }
+
+.site_logo_bottom {
+	background-color: #ee3643;
+	box-shadow: 0 7px 0 0 #b52933;
+	height: 62px;
+	width: 220px;
+	font-size: 30px;
+	line-height: 30px;
+	font-family: 'Cuprum', 'Arial', sans-serif;
+	color: #ffffff;
+	text-decoration: none;
+	text-transform: uppercase;
+	text-align: center;
+	padding-top: 10px;
+}
+
 
 .main-footer-logo {
 	text-decoration: none;
@@ -62,6 +80,7 @@ body {
 
 .phone {
 	font-size: 21px;
+	line-height: 21px;
 	color:#e9292a;
 	text-decoration: none;
 }
@@ -69,12 +88,14 @@ body {
 
 .address {
 	font-size: 14px;
-	color:#32425c; 
+	line-height: 24px;
+	color:#32425c;
 }
 
 .login-link a,
 .sign_up-link a {
 	font-size: 21px;
+	line-height: 21px;
 	color: #000000;
 	text-decoration: none;
 }
@@ -85,6 +106,7 @@ body {
 
 .user_page {
 	font-size: 21px;
+	line-height: 21px;
 	color: #000000;
 	text-decoration: none;
 }
@@ -98,7 +120,7 @@ body {
 
 .breadcrumbs li,
 .breadcrumbs a {
-	font-family: PT Sans, Arial, sans-serif;
+	font-family: 'PT Sans', 'Arial', sans-serif;
 	font-size: 13px;
 	color: #000000;
 	text-decoration: none;
@@ -112,20 +134,22 @@ body {
 }
 
 .filters h3 {
-	font-family: PT Sans, Arial, sans-serif;
+	font-family: 'PT Sans', 'Arial', sans-serif;
 	font-weight: bold;
 	font-size: 17px;
+	line-height: 30px;
 	text-transform: uppercase;
 }
 
 .filters label {
-	font-family: PT Sans, Arial, sans-serif;
+	font-family: 'PT Sans', 'Arial', sans-serif;
 	font-size: 15px;
+	line-height: 20px;
 	text-transform: uppercase;
 }
 
 .filters button {
-	font-family: PT Sans, Arial, sans-serif;
+	font-family: 'PT Sans', 'Arial', sans-serif;
 	font-size: 13px;
 	text-transform: uppercase;
 	border: 1px solid #e5e5e5;
@@ -160,14 +184,14 @@ body {
 }
 
 .item_name {
-	font-family: PT Sans, Arial, sans-serif;
+	font-family: 'PT Sans', 'Arial', sans-serif;
 	font-weight: bold;
 	font-size: 18px;
 	line-height: 20px;
 }
 
 .old_price {
-	font-family: PT Sans, Arial, sans-serif;
+	font-family: 'PT Sans', 'Arial', sans-serif;
 	font-weight: bold;
 	font-size: 17px;
 	color: #999999;
@@ -175,7 +199,7 @@ body {
 }
 
 .new_price {
-	font-family: PT Sans, Arial, sans-serif;
+	font-family: 'PT Sans', 'Arial', sans-serif;
 	font-weight: bold;
 	font-size: 17px;
 	color: #ffffff;
@@ -223,10 +247,24 @@ body {
 	text-decoration: none;
 }
 
+.user-navigation_1 {
+	line-height: 18px;
+}
+
+.site-navigation-top {
+	line-height: 17px;
+}
+
+.site-navigation-bottom,
+.product-navigation {
+	line-height: 24px;
+}
+
 .about_us h2,
 .contacts h2 {
-	font-family: PT Sans, Arial, sans-serif;
+	font-family: 'PT Sans', 'Arial', sans-serif;
 	font-size: 30px;
+	line-height: 30px;
 	text-transform: uppercase;
 }
 
