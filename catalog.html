@@ -10,7 +10,9 @@
   <body>
     <header class="main-header">
       <nav class="main-navigation">
-        <ul class="user-navigation_1">
+        
+		<ul class="user-navigation_1">
+			<div class="aligner">
 			<li>
 				<a class="main-header-logo" href="index.html">
 					<div class="site_logo_top">Техномарт</div>
@@ -21,20 +23,19 @@
 				<input type="text" placeholder="Поиск">
 			</form>
 		  </li>
-          <li class="marks"><a href="#">Закладки: 0</a></li>
-          <li class="shopping_cart_selected"><a href="#">Корзина: 10</a></li>
+          <li class="marks"><a href="#">Закладки: <span>0</span></a></li>
+          <li class="shopping_cart_selected"><a href="#">Корзина: <span>10</span></a></li>
           <li class="confirm_order"><a href="#">Оформить заказ</a></li>
           <!-- Здесь будет кнопка -->
+		  </div>
         </ul>
+		
 		<div class="user-navigation_2_wrapper">
-			<div class="index-columns">
 				<h1 class="main_title">Интернет-магазин строительных материалов и инструментов для ремонта</h1>
-			</div>
 			<div class="index-columns">
 				<a class="phone" href="tel:+78125550555">+7 (812) 555-05-55</a>
 				<p class="address">г. Санкт-Петербург ул.Большая Конюшенная, д.19/8</p>      
 			</div>
-			<div class="index-columns">
 			<ul class="user-navigation_2">
 			  <li class="name">
 				<!-- Здесь будут svg -->
@@ -46,7 +47,6 @@
 				<a class="my_account" href="#">Личный кабинет</a>
 			  </li>
 			</ul>
-			</div>
 		</div>
         <ul class="site-navigation-top">
           <li><a href="info.html">Главная</a></li>
@@ -59,14 +59,15 @@
         </ul>
       </nav>
     </header>
-    <main class="container">
+    <main class="catalog_container">
       <ul class="breadcrumbs">
         <li><a href="index.html">Главная</a></li>
         <li><a href="catalog.html">Каталог</a></li>
         <li class="breadcrumbs-current">Перфораторы</li>
       </ul>
       <h2 class="page-title">Перфораторы</h2>
-      <section class="filters">
+      <div class="sections_wrapper">
+	  <section class="filters">
 		<form action="https://echo.htmlacademy.ru" method="get" class="filter">
 			<h3>Производители:</h3>
 			<label><input type="checkbox" name="bosch" checked>bosch</label>
@@ -157,12 +158,14 @@
           </p>
         </div>
       </section>
+	  </div>
     </main>
     <footer class="main-footer">
       <div class="upper_footer">
         
 		<ul class="site-navigation-bottom">
-          <li>
+          <div class="aligner">
+		  <li>
 			<a class="main-footer-logo" href="index.html">
 				<div class="site_logo_bottom">Техномарт</div>
 			</a>
@@ -172,8 +175,10 @@
           <li><a href="catalog.html">Каталог</a></li>
           <li><a href="shipping.html">Доставка</a></li>
           <li><a href="contacts.html">Контакты</a></li>
+		  </div>
         </ul>
         <ul class="product-navigation">
+		<div class="aligner">
           <li>
 			<p class="footer-contacts">г. Санкт-Петербург ул.Большая Конюшенная, д.19/8<br>+7 (812) 555-05-55</p>
 		  </li>
@@ -181,9 +186,11 @@
           <li><a href="equipment.html">Техника</a></li>
           <li><a href="tools.html">Инструмент</a></li>
           <li><a href="promotion.html">Спецпредложения</a></li>
+		  </div>
         </ul>
       </div>
       <div class="lower_footer">
+	  <div class="aligner">
         <p class="reserved_rights">
           <span>© 2010-2017 Компания «Техномарт»</span><br>
           <span>Все права защищены</span>
@@ -202,6 +209,7 @@
           <span>Разработано - </span>
           <a class="button" href="https://htmlacademy.ru/intensive/htmlcss">HTML Academy</a>
         </p>
+		</div>
       </div>
     </footer>
 	<section class="add_to_cart">

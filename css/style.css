@@ -6,7 +6,6 @@ body {
 	line-height: 18px;
 	color: #000000;
 	background-color: #ffffff;
-	width: 1200px;
 }
 
 .user-navigation_1 li,
@@ -19,6 +18,24 @@ body {
 	list-style-type: none;
 }
 
+.aligner,
+.user-navigation_2_wrapper {
+	width: 940px;
+	margin-left: auto; 
+	margin-right: auto;
+	display: flex;
+	justify-content: space-between;
+}
+
+.container {
+	width: 940px;
+	margin-left: auto; 
+	margin-right: auto;
+}
+
+.sections_wrapper {
+	display: flex;
+}
 
 .main_title {
 	font-family: 'Cuprum', 'Arial', sans-serif;
@@ -127,6 +144,10 @@ body {
 	color: #000000;
 	text-decoration: none;
 	text-transform: uppercase;
+}
+
+.breadcrumbs {
+	display: flex;
 }
 
 .page-title {
@@ -344,19 +365,26 @@ body {
 .site-navigation-top {
 	display: flex;
 	justify-content: space-between;
-	margin-left: 130px;
-	margin-right: 130px;
 	padding-right: 55px;
+	width: 940px;
+	margin-left: auto; 
+	margin-right: auto;
 }
 
 .container {
-	display: flex;
-	margin-left: 130px;
-	margin-right: 130px;
+	display:flex;
+	margin-left: auto; 
+	margin-right: auto;
+}
+
+.catalog_container {
+	margin-left: auto; 
+	margin-right: auto;
+	width: 940px;
 }
 
 .about_us {
-	width: 520px;
+	
 }
 
 .site-navigation-bottom {
@@ -369,19 +397,17 @@ body {
 .product-navigation {
 	display: flex;
 	justify-content: space-between;
-	padding-left: 130px;
-	padding-right: 130px;
+	
 }
 
 .lower_footer {
 	display: flex;
 	justify-content: space-between;
-	padding-left: 130px;
-	padding-right: 130px;
+	
 }
 
 .footer-social {
-	display: inline-flex;
+	display:flex;
 }
 
 .feedback {
